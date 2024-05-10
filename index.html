@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <title>Kashvi's Personal Website</title>
-
     <link rel="stylesheet" href="style.css" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  </head>
+</head>
+<body>
 
-  <body>
-    <div id="container"></div>
+    <div class="icon" onclick="openNav()">
+        <img src="Assets/Images/logo.png" alt="Icon">
+    </div>
 
-    <div class="icon">
-        <a><img src="Assets/Images/logo.png" alt="Icon">
-        </a> 
+    <div class="sidenav" id="mySidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="studio.html">Studio</a>
+        <a href="lab.html">Lab</a>
+        <a href="#">Typography</a>
+        <a href="contact.html" class="bottom-link">Contact</a>
+    </div>
 
-      <div class="dropdown-menu">
-        <ul>
-            <li><a class="about" href="about.html">About</a></li>
-            <li><a href="studio.html">Studio</a></li>
-            <li><a href="lab.html">Lab</a></li>
-        </ul>
-     </div>
-    </div>  
+    <div class="main">
+    <h1>
+        K<i class="fas fa-star"></i>shv! 
+        <br>
+        $herveg<i class="fas fa-star"></i>r
+    </h1>
+    <a>Communication Design Student</a>
+    </div>
 
-   <h1>
-      K<i class="fas fa-star"></i>shv! 
-      <br>
-      $herveg<i class="fas fa-star"></i>r
-   </h1>
 
-<script src="script.js" defer></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
