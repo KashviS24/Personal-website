@@ -1,0 +1,70 @@
+
+
+.bg-circle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.9;
+    z-index: 0;
+}
+
+@font-face{
+    font-family: pp mori regular;
+    src: url(Assets/Fonts/PPMori-Regular.otf);
+}
+
+@font-face{
+    font-family: pp mori semibold;
+    src: url(Assets/Fonts/PPMori-SemiBold.otf);
+}
+
+h1{
+    font-family: pp mori semibold;
+    font-size: 130px; 
+}
+
+.dropdown-menu {
+    display: none;
+    width: 9%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    opacity: 70%;
+    padding: 10px;
+    right: 65px;
+    z-index: 1;
+  }
+  
+  .dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dropdown-menu ul li {
+    margin-bottom: 5px;
+    text-align: right;
+    border-bottom: 1px solid rgb(19, 17, 17);
+  }
+  
+  .dropdown-menu ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  .icon:hover .dropdown-menu {
+    display: block;
+  }
+
+  .icon {
+    text-align: right;
+    z-index: 1000;
+    padding: 10px;
+  }
+  
+  .icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
