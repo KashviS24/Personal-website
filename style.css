@@ -44,39 +44,6 @@ h1{
     margin-bottom: -8px;
 }
 
-/*.dropdown-menu {
-    display: none;
-    width: 100px;
-    position: absolute;
-    border-radius: 10px;
-    opacity: 70%;
-    padding: 10px;
-    right: calc(100% + 10px);
-  }
-  
-  .dropdown-menu ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .dropdown-menu ul li {
-    font-family: pp mori regular;
-    font-size: 20px;
-    margin: 15px;
-    text-align: right;
-    border-bottom: 1px solid rgb(19, 17, 17);
-  }
-  
-  .dropdown-menu ul li a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-
-  .icon:hover .dropdown-menu {
-    display: block;
-  }
- */
-
   .fas {
     color: #DB464A;
     margin: 0 -20px;
@@ -97,19 +64,18 @@ h1{
 }
 
 .sidenav a {
-    margin-top: 15px;
-    text-align: center;
     font-family: pp mori regular;
+    margin-top: 15px;
     padding: 8px 32px 8px 8px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
+    text-align: center;
 }
 
 .sidenav .bottom-link {
-    position: absolute; 
     bottom: 20px;
 }
 
