@@ -15,6 +15,9 @@ body{
 h1{
     font-family: pp mori semibold;
     font-size: 130px; 
+    position: absolute;
+    bottom: 0;
+    left: 15px;
 }
 
 .dropdown-menu {
@@ -36,7 +39,8 @@ h1{
   
   .dropdown-menu ul li {
     font-family: pp mori regular;
-    margin-bottom: 5px;
+    font-size: 20px;
+    margin: 15px;
     text-align: right;
     border-bottom: 1px solid rgb(19, 17, 17);
   }
@@ -51,9 +55,14 @@ h1{
   }
 
   .icon {
-    text-align: right;
+    width: 100px;
+    height: 100px;
+    float: right;
     z-index: 1000;
-    padding: 10px;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
   
   .icon img {
