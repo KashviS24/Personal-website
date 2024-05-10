@@ -127,11 +127,10 @@ h1{
 
 .projects{
     bottom: 0;
-    left: 0;
-    left: 0;
+    margin-left: -35px;
     text-align: left;
     overflow: scroll;
-    width: 50%;
+    width: 60%;
     height: 70%;
 }
 
@@ -140,7 +139,7 @@ h1{
     font-family: pp mori regular;
     font-size: 23px;
     padding: 20px;
-    margin: 15px;
+    margin: 10px;
 }
 
 .projects a{
