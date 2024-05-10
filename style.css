@@ -19,12 +19,12 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #c67ea4;
+    background-color: #dc6d71;
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
-    filter: blur(100px);
+    filter: blur(200px);
     z-index: -1;
 }
 
@@ -127,7 +127,7 @@ h1{
 
 .projects{
     bottom: 0;
-    margin-left: -35px;
+    margin-left: -3px;
     text-align: left;
     overflow: scroll;
     width: 60%;
