@@ -20,7 +20,7 @@ body{
     height: 100px;
     border-radius: 50%;
     filter: blur(100px);
-    opacity: 0.9;
+    opacity: 1.5;
     z-index: -1;
 }
 
@@ -154,3 +154,15 @@ h1{
     .sidenav { padding-top: 15px; }
     .sidenav a { font-size: 18px; }
 }
+
+.projects{
+    bottom: 0;
+    left: 0;
+    left: 10px;
+}
+.projects li{
+    padding: 20px;
+    margin: 15px;
+    font-family: pp mori regular;
+}
+
