@@ -16,12 +16,15 @@ body{
 }
 
 .circle {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c67ea4;
     position: absolute;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     filter: blur(100px);
-    opacity: 1.5;
     z-index: -1;
 }
 
@@ -123,17 +126,24 @@ h1{
 }
 
 .projects{
-    padding: 20px;
-    margin: 15px;
     bottom: 0;
     left: 0;
-    left: 10px;
+    left: 0;
+    text-align: left;
     overflow: scroll;
     width: 50%;
     height: 70%;
 }
 
-.projects li{
+.projects li {
+    list-style: none;
     font-family: pp mori regular;
+    font-size: 23px;
+    padding: 20px;
+    margin: 15px;
 }
 
+.projects a{
+    text-decoration: none;
+    color: #111111;
+}
