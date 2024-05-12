@@ -12,19 +12,19 @@ body{
     overflow-y: hidden;
     position: relative;
     height: 100vh;
-    background-color: #E6FFFC;
+    background-color: #d5fcf8;
 }
 
 .circle {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #dc6d71;
+    background-color: #ff4b51;
     position: absolute;
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    filter: blur(200px);
+    filter: blur(250px);
     z-index: -1;
 }
 
